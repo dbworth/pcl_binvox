@@ -26,7 +26,7 @@ The output file name is specified first. Then you can list multiple binvox files
 $ binvox2pcd -o output.pcd data/chair.binvox
 ```
 
-***Convert from .pcd to .binvox***  
+**Convert from .pcd to .binvox**  
 Specify the voxel grid resolution, between 32 and 1024.
 ```
 $ pcd2binvox -d 32 data/teapot.pcd output.binvox
