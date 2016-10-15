@@ -16,7 +16,8 @@ This was tested on Ubuntu 14.04 with PCL 1.8
 Install this package in a catkin workspace.  
 Set your path:  
 ```
-export PATH=$PATH:~/path/to/your/catkin/workspace/devel/lib/pcl_binvox/
+$ export PATH=$PATH:~/path/to/your/catkin/workspace/devel/lib/pcl_binvox/  
+$ roscd pcl_binvox
 ```
 
 **Convert from .binvox to .pcd**  
@@ -28,7 +29,7 @@ $ binvox2pcd -o output.pcd data/chair.binvox
 ***Convert from .pcd to .binvox***  
 Specify the voxel grid resolution, between 32 and 1024.
 ```
-pcd2binvox -d 32 data/teapot.pcd output.binvox
+$ pcd2binvox -d 32 data/teapot.pcd output.binvox
 ```
 
 .
